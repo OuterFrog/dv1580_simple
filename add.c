@@ -7,7 +7,7 @@ int main(int argc, char *argv[]){
   char *b_endptr; 
   int b = strtol(argv[2], &b_endptr, 10);
   if (a_endptr == argv[1] || b_endptr == argv[2]){
-    printf("-ERROR-");
+    printf("-ERROR-\n");
   }
   else{
     printf("%d\n", a + b);
