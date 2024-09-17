@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]){
-  printf("%c\n", *(argv[2]));
-  return (int)*(argv[1]) + (int)*(argv[2]);
+  int a = atoi((argv[1]));
+  int b = atoi((argv[2]));
+  //printf("%d\n", a + b);
+  return a + b;
 }
