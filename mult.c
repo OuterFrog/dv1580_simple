@@ -7,7 +7,7 @@ int main(int argc, char *argv[]){
   char *b_endptr; 
   float b = strtod(argv[2], &b_endptr);
   if (a_endptr == argv[1] || b_endptr == argv[2]){
-    printf("-ERROR-");
+    printf("ERROR");
   }
   else{
     printf("%f\n", a * b);
