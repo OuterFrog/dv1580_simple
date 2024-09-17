@@ -2,6 +2,6 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]){
-
-  return 0;
+  printf("%c\n", *(argv[2]));
+  return (int)*(argv[1]) + (int)*(argv[2]);
 }
